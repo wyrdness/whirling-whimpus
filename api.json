@@ -1,0 +1,150 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/whirling-whimpus",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "whirling-whimpus",
+    "name": "Whirling Whimpus",
+    "aliases": [],
+    "category": "CRYPTID",
+    "subcategory": "Fearsome Critter",
+    "tags": [
+      "fearsome-critter",
+      "lumberjack-folklore",
+      "spinning",
+      "invisible",
+      "whirlwind",
+      "humorous",
+      "tall-tale"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A creature that spins in circles so rapidly it becomes invisible, creating whirlwinds and dust devils as it moves through the forest.",
+      "full": "The Whirling Whimpus is one of the most peculiar fearsome critters, known for its constant and incredibly rapid spinning motion. This creature rotates so fast that it becomes completely invisible to observers, detectable only by the whirlwinds, dust devils, and spinning debris it creates. According to lumberjack tall tales, the Whirling Whimpus never stops spinning—if it did, it would become visible and vulnerable. The creature moves through forests creating miniature tornados, explaining sudden gusts of wind and swirling leaves. The Whirling Whimpus represents the fearsome critter tradition's playful explanation for natural phenomena, turning dust devils into biological impossibilities."
+    },
+    "etymology": {
+      "origin": "American lumberjack folklore, early 20th century",
+      "meaning": "Whirling (spinning); Whimpus likely nonsense word",
+      "first_use": "circa 1910"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Fearsome Critter",
+      "subtype": "Spinning",
+      "variant": "Perpetual Motion"
+    },
+    "related_phenomena": []
+  },
+
+  "characteristics": {
+    "physical": {
+      "size": "Unknown; invisible due to spinning",
+      "coloration": ["invisible"],
+      "features": [
+        {
+          "feature": "Constant spinning",
+          "description": "Rotates so rapidly as to become invisible",
+          "frequency": "always"
+        },
+        {
+          "feature": "Whirlwind creation",
+          "description": "Generates dust devils and small tornados",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Unknown; never visible"
+    },
+    "abilities": [
+      {
+        "ability": "Invisible spinning",
+        "description": "Spins so fast it cannot be seen",
+        "frequency": "constant",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Whirlwind generation",
+        "description": "Creates dust devils and spinning wind patterns",
+        "frequency": "constant",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "constant",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["forests", "open areas where dust devils occur"],
+      "diet": "Unknown",
+      "patterns": [
+        "Never stops spinning",
+        "Creates whirlwinds while moving",
+        "Completely invisible due to rotation",
+        "Detectable only by wind effects"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Anywhere dust devils and sudden wind gusts occur",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": ["Lumber regions", "Open areas"]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "1910",
+        "circa": true,
+        "source": "Lumberjack tall tale collections"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "American occupational folklore from lumber camps",
+      "folklore_connections": "Humorous explanation for dust devils and sudden wind gusts"
+    }
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": ["Lumberjack tall tales"],
+      "beliefs": "Explained natural phenomenon (dust devils) as invisible spinning creature"
+    },
+    "popular_culture": {
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "cox-1910",
+      "type": "book",
+      "title": "Fearsome Creatures of the Lumberwoods",
+      "authors": ["William T. Cox"],
+      "date": "1910"
+    }
+  ]
+}

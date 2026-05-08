@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/whirling-whimpus",
     "maintainers": [
       {
@@ -16,111 +16,220 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "whirling-whimpus",
     "name": "Whirling Whimpus",
-    "aliases": [],
+    "aliases": [
+      { "name": "Whirling Wimpus", "region": "Appalachian and lumberwoods folklore" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Fearsome critter (lumberjack tall-tale beast)",
     "tags": [
+      "fearsome-critter",
       "folklore",
-      "mythology"
+      "lumberwoods",
+      "appalachia",
+      "tall-tale",
+      "north-america",
+      "tornado",
+      "humanoid"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Whirling Whimpus is a creature defined entirely by its motion.",
-      "full": "The Whirling Whimpus is a creature defined entirely by its motion. This fearsome critter spins in circles so rapidly that it becomes completely invisible, detectable only through the whirlwinds and dust devils it creates as it moves through the landscape. According to lumberjack tall tales, the Whirling Whimpus never stops spinning—to do so would make it visible and vulnerable. The creature travels through forests and clearings, generating miniature tornados, swirling leaves, and sudden gusts of wind that seem to come from nowhere."
+      "summary": "A 'fearsome critter' of North American lumberjack tall tales: a gorilla-shaped beast that spins so fast it becomes invisible, mistaken for a small dust devil or whirlwind, and crushes anything that strays into its path.",
+      "full": "The Whirling Whimpus is a member of the 'fearsome critters' tradition — humorous tall-tale beasts told around the fires of late-19th- and early-20th-century North American logging camps. As described in William T. Cox's Fearsome Creatures of the Lumberwoods (1910) and Henry H. Tryon's Fearsome Critters (1939), the Whimpus has the head and body of a gorilla, enormous front feet, and the ability to spin in place at such speed that its body blurs out of sight, leaving only swirling dust and rustling leaves. It stations itself on a forest trail, spinning, and any animal or unwary woodsman that walks into the vortex is reduced to a thick syrup that drips down the trunk of a nearby tree. Like other fearsome critters (the hidebehind, agropelter, hodag, splinter cat) the Whimpus is a piece of camp-fire humor and hazing material rather than a sincere cryptid claim, but it has been documented in print since 1910 and remains a recognizable figure in regional folklore, especially in Tennessee and the Appalachian lumberwoods."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Coined within American lumberjack oral tradition; popularized in print by William T. Cox (1910). 'Whimpus' (also spelled 'Wimpus') is of unknown deeper etymology but consistent with the playful invented names typical of fearsome-critter lore.",
+      "meaning": "'Whirling' from its constant spinning motion; 'Whimpus' is a nonsense/onomatopoeic coinage characteristic of the fearsome-critter genre.",
+      "first_use": "1910 (William T. Cox, Fearsome Creatures of the Lumberwoods)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Fearsome critter",
+      "subtype": "Tall-tale beast",
+      "variant": "Lumberwoods / Appalachian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hidebehind", "name": "Hidebehind", "relationship": "similar", "description": "Another Cox/Tryon fearsome critter that hides behind trees and ambushes lumberjacks" },
+      { "id": "agropelter", "name": "Agropelter", "relationship": "similar", "description": "Branch-throwing fearsome critter of the same tradition" },
+      { "id": "hodag", "name": "Hodag", "relationship": "similar", "description": "Wisconsin fearsome critter from the same period" },
+      { "id": "splinter-cat", "name": "Splinter Cat", "relationship": "similar", "description": "Tree-shattering fearsome critter described by Cox" },
+      { "id": "axehandle-hound", "name": "Axehandle Hound", "relationship": "similar", "description": "Lumberwoods critter that eats axe handles" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark, unspecified — typically described only by its blurred motion"],
+      "features": [
+        { "feature": "Gorilla-like head and body", "description": "Cox describes the Whimpus as having the general shape of a gorilla", "frequency": "always" },
+        { "feature": "Enormous front feet", "description": "Disproportionately large forefeet, used to crush prey when the spin is broken", "frequency": "always" },
+        { "feature": "Invisibility through rotation", "description": "Spins so rapidly that it cannot be visually resolved; only dust and eddying leaves betray its presence", "frequency": "always" }
+      ],
+      "morphology": "A heavyset, ape-like bipedal/quadrupedal critter whose defining feature is rotational motion rather than a fixed silhouette."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "High-speed rotation / invisibility", "description": "Spins on the spot fast enough to become a visual blur, indistinguishable from a small dust devil", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Lethal trail ambush", "description": "Stations itself on a forest path; anything that walks into the vortex is reduced (in Cox's account) to a syrupy residue", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["dense forest", "logging trails", "mountain woodlands of the eastern United States"],
+      "diet": "Animals and humans drawn into its spin",
+      "patterns": [
+        "Stations itself on game trails and logging paths",
+        "Mistaken for a dust devil or small twister",
+        "Cannot stop spinning without losing its concealment"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A tall-tale beast of the North American lumberwoods, particularly the Appalachian Mountains and the Great Lakes / eastern logging regions in which the fearsome-critters tradition flourished c.1880–1940. Often associated specifically with Tennessee and the southern Appalachians.",
+      "continents": ["North America"],
+      "countries": ["United States", "Canada"],
+      "regions": [
+        "Appalachian Mountains",
+        "Tennessee",
+        "Great Lakes lumberwoods",
+        "Eastern United States",
+        "Canadian timber country"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1910",
+        "circa": false,
+        "source": "William T. Cox, Fearsome Creatures of the Lumberwoods (1910)"
+      },
+      "peak_activity_periods": [
+        { "period": "c.1880–1940", "description": "Heyday of the North American fearsome-critters oral tradition in logging camps" }
+      ],
+      "seasonal_patterns": "Not specified in source material."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "North American logging-camp oral tradition. Fearsome critters were used as tall tales for entertainment and for hazing greenhorn lumberjacks, especially across the Great Lakes timber country and the Appalachians.",
+      "earliest_accounts": "First print appearance in William T. Cox's Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts (1910), illustrated by Coert DuBois.",
+      "folklore_connections": "Part of the same fearsome-critter cycle as the hidebehind, hodag, agropelter, splinter cat, and axehandle hound. Sits within the broader Anglo-American tall-tale tradition of Paul Bunyan-era logging humor."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1910", "event": "William T. Cox publishes Fearsome Creatures of the Lumberwoods with the Whirling Whimpus among its entries", "significance": "First documentation in print", "source": "Cox, W. T. (1910)" },
+      { "date": "1939", "event": "Henry H. Tryon publishes Fearsome Critters, recycling and extending Cox's catalogue (with Cox's permission) — the Whimpus is included", "significance": "Cements the creature in the second-generation fearsome-critter canon", "source": "Tryon, H. H. (1939)" }
+    ],
+    "modern_era": "The Whirling Whimpus survives chiefly as a curiosity in folklore studies, regional Appalachian tourism content, and online cryptid catalogues. It is treated almost universally as humorous folklore rather than a sincere cryptozoological claim."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1910", "latest": "1939" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "whimpus-cox-1910",
+        "type": "book entry",
+        "name": "Cox, Fearsome Creatures of the Lumberwoods (1910)",
+        "date": "1910",
+        "description": "Original printed description of the Whirling Whimpus with illustration by Coert DuBois.",
+        "status": "unverified",
+        "analysis": "Treated by folklorists as a tall-tale catalogue rather than a zoological claim.",
+        "source": "Cox, W. T. (1910)"
+      },
+      {
+        "id": "whimpus-tryon-1939",
+        "type": "book entry",
+        "name": "Tryon, Fearsome Critters (1939)",
+        "date": "1939",
+        "description": "Second-generation fearsome-critter catalogue that includes the Whimpus with attribution to Cox.",
+        "status": "unverified",
+        "analysis": "Reaffirms Cox's earlier description; published with Cox's acknowledged permission.",
+        "source": "Tryon, H. H. (1939)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Lumberjack tall tale",
+        "description": "The Whirling Whimpus is a piece of folkloric humour from American logging camps, used for entertainment and to haze newcomers. The 'invisible spinning beast' is a comic exaggeration of dust devils and forest noises rather than a claim about an unknown animal.",
+        "proponents": ["Folklorists of the fearsome-critters tradition"],
+        "evidence_cited": [
+          "Whimpus appears only in joke-catalogues (Cox 1910, Tryon 1939)",
+          "No eyewitness reports outside the tall-tale genre",
+          "Consistent humorous tone with other fearsome critters (hodag, hidebehind, agropelter)"
+        ]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "North American lumberjack tall tales",
+        "Fearsome critters cycle"
+      ],
+      "stories": [
+        "Cox's catalogue entry: the Whimpus stations itself on a trail and reduces incoming animals to syrup running down a tree",
+        "Tryon's 1939 retelling, which keeps the gorilla-shape and invisibility motif"
+      ],
+      "beliefs": "Always told as humorous tall tale rather than serious belief; functioned as camp-fire entertainment and hazing of inexperienced loggers."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods — William T. Cox (1910)",
+        "Fearsome Critters — Henry H. Tryon (1939)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Recurring entry in modern online cryptid and folklore catalogues",
+        "Appalachian and Tennessee regional tourism / curiosity content"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "William T. Cox", "affiliation": "Minnesota State Forester; folklorist", "contribution": "First print catalogue of the Whirling Whimpus and other fearsome critters (1910)", "period": "1910" },
+      { "name": "Henry H. Tryon", "affiliation": "Black Rock Forest, Cornwall, NY", "contribution": "Author of Fearsome Critters (1939) which reproduces and extends Cox's catalogue", "period": "1939" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No active scientific research; the Whimpus is studied only as folklore."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "cox-1910", "type": "book", "title": "Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts", "authors": ["William T. Cox"], "publication": "Judd & Detweiler", "date": "1910" },
+    { "id": "tryon-1939", "type": "book", "title": "Fearsome Critters", "authors": ["Henry H. Tryon"], "publication": "Idlewild Press", "date": "1939" },
+    { "id": "wikipedia-fearsome", "type": "website", "title": "Fearsome Creatures of the Lumberwoods, With a Few Desert and Mountain Beasts — Wikipedia", "url": "https://en.wikipedia.org/wiki/Fearsome_Creatures_of_the_Lumberwoods,_With_a_Few_Desert_and_Mountain_Beasts", "accessed": "2026-05-07" },
+    { "id": "lumberwoods-whimpus", "type": "website", "title": "Whirling Whimpus — Lumberwoods Fearsome Critters archive", "url": "http://www.lib.lumberwoods.org/fclw/whimpus.html", "accessed": "2026-05-07" }
+  ]
 }
